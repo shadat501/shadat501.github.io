@@ -1,0 +1,25 @@
+$blue-color: #446CB3;
+
+.atom-scroll-down a:hover,.atom-scroll-down a:focus{
+	background: $blue-color;
+	border-color: $blue-color;
+}
+.atom-cta-area .atom-button a:hover{
+	color: $blue-color;
+	border-color: $blue-color;
+	&:focus{
+		color: $blue-color;
+		border-color: $blue-color;
+	}
+}
+
+.atom-subscribe-area .atom-form input:focus{
+	border-color: $blue-color;
+}
+.atom-subscribe-area .atom-form input[type="submit"]:hover,.atom-subscribe-area .atom-form input[type="submit"]:focus{
+	border-color: $blue-color;
+	background: $blue-color;
+}
+.atom-footer-area p a:hover,.atom-footer-area p a:focus{
+	color: $blue-color;
+}

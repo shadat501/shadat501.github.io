@@ -1,0 +1,25 @@
+$orange-color: #D35400;
+
+.atom-scroll-down a:hover,.atom-scroll-down a:focus{
+	background: $orange-color;
+	border-color: $orange-color;
+}
+.atom-cta-area .atom-button a:hover{
+	color: $orange-color;
+	border-color: $orange-color;
+	&:focus{
+		color: $orange-color;
+		border-color: $orange-color;
+	}
+}
+
+.atom-subscribe-area .atom-form input:focus{
+	border-color: $orange-color;
+}
+.atom-subscribe-area .atom-form input[type="submit"]:hover,.atom-subscribe-area .atom-form input[type="submit"]:focus{
+	border-color: $orange-color;
+	background: $orange-color;
+}
+.atom-footer-area p a:hover,.atom-footer-area p a:focus{
+	color: $orange-color;
+}

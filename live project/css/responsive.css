@@ -1,0 +1,19 @@
+/*write some responsive code here */
+/* Large desktops and laptops */
+/* Portrait tablets and medium desktops */
+/* Portrait tablets and small desktops */
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .atom-home-area, .atom-home-area > .container {
+    height: auto;
+  }
+
+  .atom-wrapper {
+    width: 100%;
+    position: static;
+    top: 0;
+    margin-top: 50px !important;
+    margin-bottom: 50px;
+  }
+}
+/* Landscape phones and smaller */

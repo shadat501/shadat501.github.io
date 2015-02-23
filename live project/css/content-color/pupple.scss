@@ -1,0 +1,25 @@
+$pupple-color: #9A12B3;
+
+.atom-scroll-down a:hover,.atom-scroll-down a:focus{
+	background: $pupple-color;
+	border-color: $pupple-color;
+}
+.atom-cta-area .atom-button a:hover{
+	color: $pupple-color;
+	border-color: $pupple-color;
+	&:focus{
+		color: $pupple-color;
+		border-color: $pupple-color;
+	}
+}
+
+.atom-subscribe-area .atom-form input:focus{
+	border-color: $pupple-color;
+}
+.atom-subscribe-area .atom-form input[type="submit"]:hover,.atom-subscribe-area .atom-form input[type="submit"]:focus{
+	border-color: $pupple-color;
+	background: $pupple-color;
+}
+.atom-footer-area p a:hover,.atom-footer-area p a:focus{
+	color: $pupple-color;
+}

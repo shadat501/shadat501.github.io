@@ -1,0 +1,25 @@
+$yellow-color: #F2CA27;
+
+.atom-scroll-down a:hover,.atom-scroll-down a:focus{
+	background: $yellow-color;
+	border-color: $yellow-color;
+}
+.atom-cta-area .atom-button a:hover{
+	color: $yellow-color;
+	border-color: $yellow-color;
+	&:focus{
+		color: $yellow-color;
+		border-color: $yellow-color;
+	}
+}
+
+.atom-subscribe-area .atom-form input:focus{
+	border-color: $yellow-color;
+}
+.atom-subscribe-area .atom-form input[type="submit"]:hover,.atom-subscribe-area .atom-form input[type="submit"]:focus{
+	border-color: $yellow-color;
+	background: $yellow-color;
+}
+.atom-footer-area p a:hover,.atom-footer-area p a:focus{
+	color: $yellow-color;
+}

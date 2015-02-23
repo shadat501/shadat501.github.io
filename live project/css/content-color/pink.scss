@@ -1,0 +1,25 @@
+$pink-color: #DB0A5B;
+
+.atom-scroll-down a:hover,.atom-scroll-down a:focus{
+	background: $pink-color;
+	border-color: $pink-color;
+}
+.atom-cta-area .atom-button a:hover{
+	color: $pink-color;
+	border-color: $pink-color;
+	&:focus{
+		color: $pink-color;
+		border-color: $pink-color;
+	}
+}
+
+.atom-subscribe-area .atom-form input:focus{
+	border-color: $pink-color;
+}
+.atom-subscribe-area .atom-form input[type="submit"]:hover,.atom-subscribe-area .atom-form input[type="submit"]:focus{
+	border-color: $pink-color;
+	background: $pink-color;
+}
+.atom-footer-area p a:hover,.atom-footer-area p a:focus{
+	color: $pink-color;
+}

@@ -1,0 +1,25 @@
+$red-color: #D91E18;
+
+.atom-scroll-down a:hover,.atom-scroll-down a:focus{
+	background: $red-color;
+	border-color: $red-color;
+}
+.atom-cta-area .atom-button a:hover{
+	color: $red-color;
+	border-color: $red-color;
+	&:focus{
+		color: $red-color;
+		border-color: $red-color;
+	}
+}
+
+.atom-subscribe-area .atom-form input:focus{
+	border-color: $red-color;
+}
+.atom-subscribe-area .atom-form input[type="submit"]:hover,.atom-subscribe-area .atom-form input[type="submit"]:focus{
+	border-color: $red-color;
+	background: $red-color;
+}
+.atom-footer-area p a:hover,.atom-footer-area p a:focus{
+	color: $red-color;
+}
