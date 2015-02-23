@@ -1,34 +1,15 @@
 // you can use document ready function for activing your plugin .
 
-$(window).load(function (){
-  setTimeout(function(){
-    $('body').addClass('atom-loaded');
-  },1000);
-});
-
-
 $( document ).ready(function() {
 	// your plugin activation here
 	// using headingAni ID we are activeing heading animation here.
 	new WOW().init();
-
-	// fittext active here
-	 $("h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '50px' });
-	 $("p").fitText(1.2, { minFontSize: '10px', maxFontSize: '16px' });
 
 
 	 // backstretch active here 
 	 $(".atom-home-area").backstretch([
           "img/home-bg.jpg"
         ]);
-
-   // stellar parallax background active
-   $(function(){
-      $.stellar({
-        horizontalScrolling: false,
-        verticalOffset: 40
-      });
-    });
 
 	 // countdown
     // To change date, simply edit: var endDate = "May 26, 2015 20:39:00";
