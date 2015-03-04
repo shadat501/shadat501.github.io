@@ -1,0 +1,26 @@
+$red-color: #F90706;
+
+.atom-single-service:hover {
+	i{
+		color: $red-color;
+	}
+	.atom-service-info {
+		h5 {
+			color: $red-color;
+		}
+	}
+}
+.atom-scroll-down a,
+.atom-scroll-down a:hover,
+.atom-scroll-down a:focus {
+	color: $red-color;
+}
+.atom-subscribe-form {
+	.atom-subscribe-email:focus {
+		border-color: $red-color;
+	}
+	.atom-subscribe-button {
+		background-color: $red-color;
+		border-color: $red-color;
+	}
+}

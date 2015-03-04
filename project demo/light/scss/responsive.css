@@ -1,0 +1,32 @@
+/*write some responsive code here */
+/* iMac with Retina 5k Display */
+/* MacBook Pro  */
+/* ipad mini  */
+/* sony landscape device */
+/* Toshiba landscape device */
+/* Extra large desktop and laptop */
+/* iphone 6 */
+/* large desktop and laptop */
+/* iPads (portrait and landscape) ----------- */
+/*tablet , lo-res laptops ands desktops*/
+/* portrait tablet  */
+@media (max-width: 768px) {
+  /* home area code */
+  .atom-home-area,
+  .atom-home-area > .container {
+    height: auto;
+  }
+
+  .atom-vcenter {
+    position: static;
+    top: 0;
+    margin-top: 50px !important;
+    margin-bottom: 50px;
+  }
+}
+/* landscape mobile */
+/* portrait mobile */
+/* Medium Smartphones ----------- */
+/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (landscape) ----------- */
+/* Smartphones (portrait) ----------- */

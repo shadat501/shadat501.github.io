@@ -1,0 +1,250 @@
+/* ================ This file is containing all of your theme style and modification ================*/
+/* Table of content 
+=====================================
+
+1. Preloader =========================================================== # line 15
+2. Document Setup(body, typography, etc) =============================== # line 38
+3. Misc and Re-usable Elements ========================================= # line 103
+4. Home ================================================================ # line 111
+
+=====================================
+*/
+/* =========================================================== 
+    1. preloader
+============================================================ */
+#atom-preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e74c3c;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#atom-status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(../images/status.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+
+/* =========================================================== 
+    1. Document Setup (body, common classes, structure etc)
+============================================================ */
+/* #basic
+================================================== */
+html, body {
+  height: 100%;
+}
+
+body {
+  color: #323232;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+/* Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+h3 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+h4 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+h5 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+a {
+  color: #d3145a;
+  text-decoration: none;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+
+input,
+input:focus {
+  outline: 0;
+}
+
+/* =========================================================== 
+    3. Misc and Re-usable Elements
+============================================================ */
+section {
+  padding: 80px 0;
+}
+
+/* =========================================================== 
+    4.	home 
+============================================================ */
+#atom-home {
+  background: url(../images/home-bg.jpg) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.atom-home-area {
+  height: 100%;
+  color: #fff;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
+
+.atom-overlay {
+  background: rgba(11, 29, 31, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.atom-home-area > .container {
+  height: 100%;
+  position: relative;
+}
+
+.atom-vcenter {
+  position: relative;
+  top: 50%;
+  height: auto;
+  width: 100%;
+}
+.atom-vcenter .atom-section-heading h1 {
+  margin-bottom: 10px;
+}
+
+.atom-countdown div {
+  display: inline-block;
+}
+.atom-countdown div span {
+  width: 150px;
+  display: block;
+}
+.atom-countdown div span:first-child {
+  font-size: 4em;
+  line-height: 64px;
+}
+.atom-countdown div span:last-child {
+  font-size: 1em;
+  line-height: 20px;
+}
+
+.atom-subscribe-form .atom-subscribe-email {
+  height: 50px;
+  background: transparent;
+  color: #fff;
+  margin-top: 20px;
+  border: 3px solid #fff;
+  font-size: 20px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.atom-subscribe-form .atom-subscribe-button {
+  margin-top: 20px;
+  color: #fff;
+  height: 50px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  border: 3px solid;
+}
+.atom-subscribe-form .atom-subscribe-button:hover, .atom-subscribe-form .atom-subscribe-button:focus {
+  background: transparent;
+}
+
+.atom-scroll-down {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+}
+.atom-scroll-down a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* =========================================================== 
+    4.	service 
+============================================================ */
+.atom-single-service {
+  margin-top: 60px;
+}
+.atom-single-service i {
+  font-size: 36px;
+  margin-right: 20px;
+}
+.atom-single-service .atom-service-info {
+  overflow: hidden;
+}
+.atom-single-service .atom-service-info h5 {
+  margin-top: 0;
+  font-weight: 600;
+}

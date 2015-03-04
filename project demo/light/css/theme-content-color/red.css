@@ -1,0 +1,20 @@
+.atom-single-service:hover i {
+  color: #F90706;
+}
+.atom-single-service:hover .atom-service-info h5 {
+  color: #F90706;
+}
+
+.atom-scroll-down a,
+.atom-scroll-down a:hover,
+.atom-scroll-down a:focus {
+  color: #F90706;
+}
+
+.atom-subscribe-form .atom-subscribe-email:focus {
+  border-color: #F90706;
+}
+.atom-subscribe-form .atom-subscribe-button {
+  background-color: #F90706;
+  border-color: #F90706;
+}
