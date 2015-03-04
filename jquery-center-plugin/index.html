@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery center plugin</title>
+	<style type="text/css">
+		.container{
+		  height: 300px;
+		  width: 300px;
+		  background: #ff00ff;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	  <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/138.jpg" alt="" class="center"/>
+	</div>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-center.js"></script>
+	<script type="text/javascript">
+		// active center plugin
+		$(document).ready(function(){
+		  $(".center").center();
+		});
+	</script>
+</body>
+</html>
